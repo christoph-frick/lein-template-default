@@ -17,6 +17,7 @@
              ["project.clj" (render "project.clj" data)]
              ["README.md" (render "README.md" data)]
              [".gitignore" (render "gitignore" data)]
+             ["tests.edn" (render "tests.edn" data)]
              ["src/{{nested-dirs}}.clj" (render "core.clj" data)]
              ["test/{{nested-dirs}}_test.clj" (render "test.clj" data)]
              ["LICENSE" (render "LICENSE" data)]
