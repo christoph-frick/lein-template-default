@@ -1,10 +1,10 @@
-# net.ofnir.default
+# net.ofnir/base
 
 My default leiningen template
 
 ## License
 
-Copyright © 2019 Christoph Frick. All Rights Reserved.
+Copyright © 2022 Christoph Frick. All Rights Reserved.
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at

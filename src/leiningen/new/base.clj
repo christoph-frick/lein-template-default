@@ -1,10 +1,10 @@
-(ns leiningen.new.net.ofnir.default
+(ns leiningen.new.base
   (:require [leiningen.new.templates :refer [renderer year date project-name ->files sanitize-ns name-to-path multi-segment]]
             [leiningen.core.main :as main]))
 
-(defn net.ofnir.default
+(defn base
   [name]
-  (let [render (renderer "net/ofnir/default")
+  (let [render (renderer "base")
         main-ns (multi-segment (sanitize-ns name))
         data {:raw-name name
               :name (project-name name)
