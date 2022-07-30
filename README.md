@@ -1,6 +1,10 @@
 # net.ofnir/base
 
-My default leiningen template
+My default leiningen template.  Use like:
+
+```shell
+lein new net.ofnir/base net.ofnir.customer.project/api
+```
 
 ## License
 
