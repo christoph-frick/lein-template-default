@@ -1,3 +1,3 @@
 (ns {{namespace}}-test
-  (:require [clojure.test :refer [deftest testing is are]]
+  (:require [clojure.test :refer [deftest is are]]
             [{{namespace}} :as sut]))
