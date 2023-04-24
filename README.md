@@ -1,3 +1,5 @@
+Moved to: https://codeberg.org/cfrick/lein-template-base
+
 # net.ofnir/base
 
 My default leiningen template.  Use like:
